@@ -37,7 +37,7 @@ sudo apt install -y network-manager network-manager-gnome
 sudo apt install -y lxappearance 
 
 # Browser Installation (eg. chromium)
-sudo apt install -y chromium
+sudo apt install -y firefox-esr
 
 # Desktop background browser/handler 
 # feh --bg-fill /path/to/directory 
@@ -65,4 +65,4 @@ cp -a /etc/xdg/openbox/ ~/.config/
 
 sudo apt autoremove
 
-printf "\e[1;32mYou can now reboot! Thanks you.\e[0m\n"
+printf "\e[1;32mEverything done! You can now reboot.\e[0m\n"
